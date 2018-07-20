@@ -14,7 +14,18 @@
   Then alert your name using dot notation.
 */
 
+
+
 //Code here
+
+const me = {
+  name: "Erika",
+  age: 35
+}
+
+console.log(me.age);
+
+
 
 
 
@@ -26,7 +37,14 @@
 */
 
 //Code here
-
+const favoriteThings= {
+  band: "RHCP",
+  food: "Sushi",
+  person: "Carlos",
+  book: "The Alchemist",
+  movie: "Godfather Part 1",
+  holiday: "Christmas"
+}
 
 
 /*
@@ -34,7 +52,8 @@
 */
 
 //Code here
-
+favoriteThings.car = "F-Type SVR";
+favoriteThings.brand = "Jaguar"
 
 
 /*
@@ -42,7 +61,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 ////////// PROBLEM 3 //////////
@@ -56,7 +76,11 @@
 */
 
 //Code here
+const backPack= {}
+const item= "firstPocket";
 
+backPack[item] = 'chapstick';
+backPack.color = 'black';
 
 
 /*
