@@ -89,7 +89,7 @@ backPack.color = 'black';
 
 //Code here
 
-
+console.log(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -121,7 +121,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email= 'tyler.mcginnis@devmounta.in';
 
 
 
